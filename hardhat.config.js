@@ -29,4 +29,11 @@ module.exports = {
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },
+  etherscan: {
+    apiKey: {
+      polygonMumbai: process.env.POLYGONSCAN_API_KEY,
+      optimismGoerli: process.env.OPTIMISMSCAN_API_KEY,
+      baseGoerli: process.env.BASESCAN_API_KEY,
+    },
+  },
 };
