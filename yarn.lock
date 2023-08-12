@@ -35,11 +35,6 @@
   dependencies:
     tslib "^2.3.1"
 
-"@axelar-network/axelar-gmp-sdk-solidity@^3.6.1":
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/@axelar-network/axelar-gmp-sdk-solidity/-/axelar-gmp-sdk-solidity-3.6.1.tgz#22dab77a920215a5919c3fef43dd888bf115c949"
-  integrity sha512-jz8NSSbZpWUyE53JiXYp8cO8G32e7TB1u6tJiQtNKHsthajWxDZ4BcHZkjKMB2jVQJa4bjH2BbDq4BUb6aC90Q==
-
 "@chainlink/contracts-ccip@^0.7.6":
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/@chainlink/contracts-ccip/-/contracts-ccip-0.7.6.tgz#5bf4568a0bbf4e29d2e8c32348e5ecc6ced006d2"
@@ -90,6 +85,11 @@
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
+
+"@connext/interfaces@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@connext/interfaces/-/interfaces-2.0.5.tgz#c9a5072a12ce7b6ce4e2f6eddfc8157aa0cb788f"
+  integrity sha512-b657mNb6z/kLGZMNhqDHJmYmPWa3QZYdtZ4TEjtrYe3289aO0dbRrMIEYd0fQVEtqNjPVl7YnwberfOmz1QehA==
 
 "@eth-optimism/contracts@^0.5.21":
   version "0.5.40"
@@ -968,9 +968,9 @@
     tslib "^1.9.3"
 
 "@smithy/types@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-2.1.0.tgz#67fd47c25bbb0fd818951891bf7bcf19a8ee2fe6"
-  integrity sha512-KLsCsqxX0j2l99iP8s0f7LBlcsp7a7ceXGn0LPYPyVOsqmIKvSaPQajq0YevlL4T9Bm+DtcyXfBTbtBcLX1I7A==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-2.2.0.tgz#52fa236967729f5a4e2c6c334f1a03930fa86f67"
+  integrity sha512-Ahpt9KvD0mWeWiyaGo5EBE7KOByLl3jl4CD9Ps/r8qySgzVzo/4qsa+vvstOU3ZEriALmrPqUKIhqHt0Rn+m6g==
   dependencies:
     tslib "^2.5.0"
 
@@ -1062,9 +1062,9 @@
   integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
 "@types/node@*":
-  version "20.4.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.9.tgz#c7164e0f8d3f12dfae336af0b1f7fdec8c6b204f"
-  integrity sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==
+  version "20.4.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.10.tgz#73c9480791e3ddeb4887a660fc93a7f59353ad45"
+  integrity sha512-vwzFiiy8Rn6E0MtA13/Cxxgpan/N6UeNYR9oUu6kuJWxu6zCk98trcDp8CBhbtaeuq9SykCmXkFr2lWLoPcvLg==
 
 "@types/node@^10.0.3":
   version "10.17.60"

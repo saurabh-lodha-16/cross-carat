@@ -23,16 +23,18 @@ module.exports = {
     optimismGoerli: {
       url: process.env.OPTIMISM_GOERLI_RPC_URL,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
+      gasPrice: 30000000000,
     },
     baseGoerli: {
       url: process.env.BASE_GOERLI_RPC_URL,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
+      gasPrice: 30000000000,
     },
   },
   etherscan: {
     apiKey: {
       polygonMumbai: process.env.POLYGONSCAN_API_KEY,
-      optimismGoerli: process.env.OPTIMISMSCAN_API_KEY,
+      optimisticGoerli: process.env.OPTIMISMSCAN_API_KEY,
       baseGoerli: process.env.BASESCAN_API_KEY,
     },
   },
