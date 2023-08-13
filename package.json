@@ -10,7 +10,20 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-    "format": "prettier --write contracts/**/*.sol"
+    "format": "prettier --write contracts/**/*.sol",
+    "deployDiamond": "npx hardhat run scripts/deployDiamond.js",
+    "deployWrapper": "npx hardhat run scripts/deployWrapper.js",
+    "addFacet": "npx hardhat run scripts/addFacet.js",
+    "deployHyperlaneFacet": "npx hardhat run scripts/hyperlane/deployHyperlaneFacet.js",
+    "deployLayerZeroFacet": "npx hardhat run scripts/layerzero/deployLayerZeroFacet.js",
+    "deployLayerZeroHelper": "npx hardhat run scripts/layerzero/deployLayerZeroHelper.js",
+    "setTrustedRemotes": "npx hardhat run scripts/layerzero/setTrustedRemotes.js",
+    "deployCCIPFacet": "npx hardhat run scripts/ccip/deployCCIPFacet.js",
+    "deployDestinationChainMock": "npx hardhat run scripts/mocks/deployDestinationChainMock.js",
+    "deploySourceChainMock": "npx hardhat run scripts/mocks/deploySourceChainMock.js",
+    "testLayerZero": "npx hardhat run scripts/execution/testLayerZero.js",
+    "testCCIP": "npx hardhat run scripts/execution/testCCIP.js",
+    "testHyperlane": "npx hardhat run scripts/execution/testHyperlane.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
@@ -30,6 +43,10 @@
     "typechain": "^8.1.0"
   },
   "dependencies": {
+    "@chainlink/contracts-ccip": "^0.7.6",
+    "@connext/interfaces": "^2.0.5",
+    "@hyperlane-xyz/core": "^1.4.2",
+    "@layerzerolabs/solidity-examples": "^0.0.12",
     "@openzeppelin/contracts": "^4.9.2",
     "dotenv": "^16.3.1"
   }
