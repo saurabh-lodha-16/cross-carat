@@ -1,8 +1,10 @@
 # Cross Carat
 
-Cross chain unified messaging interface to enable universal communication between any two EVM-based blockchains.
+#### Cross chain unified messaging interface to enable universal communication between any two EVM-based blockchains.
 
-<img width="1440" alt="Screenshot 2023-08-13 at 8 01 50 PM" src="https://github.com/saurabh-lodha-16/cross-carat/assets/47684949/7a2af8e5-c2a0-4daa-94ec-6611dfe85e48">
+<img width="1220" alt="Screenshot 2023-08-13 at 8 01 50 PM" src="https://github.com/saurabh-lodha-16/cross-carat/assets/47684949/7a2af8e5-c2a0-4daa-94ec-6611dfe85e48">
+
+### [Dapp Website](https://crosscarat.netlify.app/) | [Dapp Project Repository](https://github.com/prasenjit-26/cross-carat-ui)
 
 
 ## Project Architecture
