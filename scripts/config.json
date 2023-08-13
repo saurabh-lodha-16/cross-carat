@@ -1,0 +1,40 @@
+{
+  "polygonMumbai": {
+    "layerzero": {
+      "endpoint": "0xf69186dfBa60DdB133E91E9A4B5673624293d8F8",
+      "diamond": "0xD1FaE79D5836d6A8456AE8B081A7053d91157A03",
+      "helper": "0x6eA0C1BF680DBb8003c66d545a0D228285Bb2491"
+    },
+    "ccip": {
+      "router": "0x70499c328e1E2a3c41108bd3730F6670a44595D1"
+    },
+    "hyperlane": {
+      "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+      "interchainGasPaymaster": "0x8f9C3888bFC8a5B25AED115A82eCbb788b196d2a"
+    },
+    "wrapper": "0x0900CE0d2b6E889b65dDea621726A000acDF7C8B"
+  },
+  "optimismGoerli": {
+    "layerzero": {
+      "endpoint": "0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1",
+      "diamond": "0x6537f4f568159B7b42E7878915b1f104b91a9951",
+      "helper": "0xd13a389cE2130230Fbd919829fe2175B089ac3BC"
+    },
+    "ccip": {
+      "router": "0xEB52E9Ae4A9Fb37172978642d4C141ef53876f26"
+    },
+    "hyperlane": {
+      "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+      "interchainGasPaymaster": "0x8f9C3888bFC8a5B25AED115A82eCbb788b196d2a"
+    },
+    "wrapper": "0xB823b09D759D2f802bebF6c63Dd3473d7D840B52"
+  },
+  "baseGoerli": {
+    "layerzero": {
+      "endpoint": "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab",
+      "diamond": "0x34fa80e9797163707775824105585aaD84336195",
+      "helper": "0x69D5F6D9EdE8F74Fa1D0245144Bd9628D3115394"
+    },
+    "wrapper": "0x247a2b4db0de577E60a2b478E89eeC1A2646e7e7"
+  }
+}
